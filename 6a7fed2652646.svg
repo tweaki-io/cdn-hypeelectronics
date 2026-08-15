@@ -1,0 +1,31 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="boltGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0EA5E9"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+  </defs>
+
+  <!-- White background with rounded corners -->
+  <rect width="512" height="512" rx="96" fill="#FFFFFF"/>
+
+  <!-- Circuit dots -->
+  <g fill="#0EA5E9" opacity="0.9">
+    <circle cx="150" cy="150" r="10"/>
+    <circle cx="180" cy="220" r="10"/>
+    <circle cx="330" cy="110" r="10"/>
+    <circle cx="345" cy="200" r="10"/>
+    <circle cx="230" cy="290" r="10"/>
+  </g>
+
+  <!-- Lightning bolt -->
+  <path d="M290 60
+           L210 260
+           L255 260
+           L215 400
+           L320 220
+           L275 220
+           L315 60
+           Z"
+        fill="url(#boltGradient)"/>
+</svg>
