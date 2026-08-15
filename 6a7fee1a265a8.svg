@@ -1,0 +1,58 @@
+<svg viewBox="0 0 1600 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E3A8A"/>
+    </linearGradient>
+    <linearGradient id="boltGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0EA5E9"/>
+    </linearGradient>
+    <linearGradient id="btnGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0EA5E9"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="500" fill="url(#bgGradient)"/>
+
+  <!-- Decorative circuit lines -->
+  <g stroke="#38BDF8" stroke-width="2" opacity="0.25" fill="none">
+    <path d="M0 80 H300 V40 H500"/>
+    <path d="M0 420 H250 V460 H450"/>
+    <path d="M1600 100 H1300 V60 H1100"/>
+    <path d="M1600 400 H1350 V440 H1150"/>
+    <circle cx="500" cy="40" r="6" fill="#38BDF8"/>
+    <circle cx="450" cy="460" r="6" fill="#38BDF8"/>
+    <circle cx="1100" cy="60" r="6" fill="#38BDF8"/>
+    <circle cx="1150" cy="440" r="6" fill="#38BDF8"/>
+  </g>
+
+  <!-- Watermark bolt (right side, faded) -->
+  <path d="M1420 60 L1330 250 L1380 250 L1330 420 L1470 200 L1420 200 L1470 60 Z"
+        fill="#38BDF8" opacity="0.15"/>
+
+  <!-- Small bolt icon next to title -->
+  <path d="M175 150 L140 250 L162 250 L138 320 L200 220 L177 220 L200 150 Z"
+        fill="url(#boltGradient)"/>
+
+  <!-- Eyebrow text -->
+  <text x="230" y="150" font-family="Arial, Helvetica, sans-serif" font-weight="600"
+        font-size="24" fill="#38BDF8" letter-spacing="6">NEW SEASON DROP</text>
+
+  <!-- Main title -->
+  <text x="230" y="240" font-family="Arial, Helvetica, sans-serif" font-weight="800"
+        font-size="76" fill="#FFFFFF">Gadgets. Gear.</text>
+  <text x="230" y="320" font-family="Arial, Helvetica, sans-serif" font-weight="800"
+        font-size="76" fill="#FFFFFF">Your Style.</text>
+
+  <!-- Subtitle -->
+  <text x="232" y="365" font-family="Arial, Helvetica, sans-serif" font-weight="400"
+        font-size="26" fill="#CBD5E1">Top tech, trending accessories &amp; fresh apparel — all in one place.</text>
+
+  <!-- CTA button -->
+  <rect x="230" y="400" width="240" height="66" rx="33" fill="url(#btnGradient)"/>
+  <text x="350" y="442" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-weight="700" font-size="26" fill="#FFFFFF">Shop Now</text>
+</svg>
