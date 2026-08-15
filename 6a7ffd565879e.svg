@@ -1,0 +1,71 @@
+<svg viewBox="0 0 1600 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E3A8A"/>
+    </linearGradient>
+    <linearGradient id="boltGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0EA5E9"/>
+    </linearGradient>
+    <linearGradient id="btnGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0EA5E9"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="500" fill="url(#bgGradient)"/>
+
+  <!-- Decorative circuit lines -->
+  <g stroke="#38BDF8" stroke-width="2" opacity="0.25" fill="none">
+    <path d="M0 80 H300 V40 H500"/>
+    <path d="M0 420 H250 V460 H450"/>
+    <path d="M1600 100 H1300 V60 H1100"/>
+    <path d="M1600 400 H1350 V440 H1150"/>
+    <circle cx="500" cy="40" r="6" fill="#38BDF8"/>
+    <circle cx="450" cy="460" r="6" fill="#38BDF8"/>
+    <circle cx="1100" cy="60" r="6" fill="#38BDF8"/>
+    <circle cx="1150" cy="440" r="6" fill="#38BDF8"/>
+  </g>
+
+  <!-- Smartphone/gadget icon (right side) -->
+  <g transform="translate(1230,90)">
+    <rect x="0" y="0" width="180" height="320" rx="24" fill="none" stroke="#38BDF8" stroke-width="6"/>
+    <rect x="18" y="30" width="144" height="230" rx="4" fill="#38BDF8" opacity="0.15"/>
+    <circle cx="90" cy="290" r="10" fill="none" stroke="#38BDF8" stroke-width="5"/>
+    <!-- small chip icon overlapping -->
+    <rect x="-60" y="150" width="70" height="70" rx="8" fill="none" stroke="#0EA5E9" stroke-width="5"/>
+    <line x1="-60" y1="165" x2="-85" y2="165" stroke="#0EA5E9" stroke-width="5"/>
+    <line x1="-60" y1="185" x2="-85" y2="185" stroke="#0EA5E9" stroke-width="5"/>
+    <line x1="-60" y1="205" x2="-85" y2="205" stroke="#0EA5E9" stroke-width="5"/>
+    <line x1="10" y1="165" x2="35" y2="165" stroke="#0EA5E9" stroke-width="5"/>
+    <line x1="10" y1="185" x2="35" y2="185" stroke="#0EA5E9" stroke-width="5"/>
+    <line x1="10" y1="205" x2="35" y2="205" stroke="#0EA5E9" stroke-width="5"/>
+  </g>
+
+  <!-- Small bolt icon above eyebrow -->
+  <path d="M175 90 L140 190 L162 190 L138 260 L200 160 L177 160 L200 90 Z"
+        fill="url(#boltGradient)"/>
+
+  <!-- Eyebrow -->
+  <text x="230" y="150" font-family="Arial, Helvetica, sans-serif" font-weight="600"
+        font-size="24" fill="#38BDF8" letter-spacing="6">CATEGORY</text>
+
+  <!-- Title -->
+  <text x="228" y="260" font-family="Arial, Helvetica, sans-serif" font-weight="800"
+        font-size="88" fill="#FFFFFF">Gadgets</text>
+
+  <!-- Subtitle -->
+  <text x="230" y="305" font-family="Arial, Helvetica, sans-serif" font-weight="400"
+        font-size="26" fill="#CBD5E1">Smart tech for everyday life.</text>
+
+  <!-- Tagline -->
+  <text x="230" y="345" font-family="Arial, Helvetica, sans-serif" font-weight="400"
+        font-size="20" fill="#93C5FD" font-style="italic">Innovation you can hold in your hand.</text>
+
+  <!-- CTA button -->
+  <rect x="230" y="385" width="240" height="64" rx="32" fill="url(#btnGradient)"/>
+  <text x="350" y="425" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-weight="700" font-size="24" fill="#FFFFFF">Shop Gadgets</text>
+</svg>
