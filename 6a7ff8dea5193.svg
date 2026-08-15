@@ -1,0 +1,68 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1224"/>
+      <stop offset="50%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E3A8A"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0EA5E9" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#0EA5E9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Base background -->
+  <rect width="1920" height="1080" fill="url(#bgGradient)"/>
+
+  <!-- Soft glow blobs -->
+  <circle cx="300" cy="200" r="400" fill="url(#glow1)"/>
+  <circle cx="1650" cy="850" r="450" fill="url(#glow2)"/>
+  <circle cx="1600" cy="150" r="300" fill="url(#glow1)"/>
+  <circle cx="250" cy="900" r="350" fill="url(#glow2)"/>
+
+  <!-- Circuit grid pattern -->
+  <g stroke="#38BDF8" stroke-width="1.5" opacity="0.18" fill="none">
+    <path d="M0 120 H260 V60 H520 V180 H780"/>
+    <path d="M0 400 H180 V460 H460 V340 H700"/>
+    <path d="M0 700 H240 V760 H520"/>
+    <path d="M0 960 H300 V900 H600 V1000"/>
+    <path d="M1920 150 H1660 V90 H1400 V220 H1150"/>
+    <path d="M1920 420 H1740 V480 H1460 V360 H1220"/>
+    <path d="M1920 680 H1680 V740 H1400"/>
+    <path d="M1920 940 H1620 V880 H1320 V980"/>
+    <path d="M960 40 V160 H1080 V40"/>
+    <path d="M900 1080 V960 H1040 V1080"/>
+  </g>
+
+  <!-- Circuit node dots -->
+  <g fill="#38BDF8" opacity="0.5">
+    <circle cx="260" cy="60" r="6"/>
+    <circle cx="520" cy="180" r="6"/>
+    <circle cx="180" cy="460" r="6"/>
+    <circle cx="460" cy="340" r="6"/>
+    <circle cx="240" cy="760" r="6"/>
+    <circle cx="300" cy="900" r="6"/>
+    <circle cx="1660" cy="90" r="6"/>
+    <circle cx="1400" cy="220" r="6"/>
+    <circle cx="1740" cy="480" r="6"/>
+    <circle cx="1460" cy="360" r="6"/>
+    <circle cx="1680" cy="740" r="6"/>
+    <circle cx="1620" cy="880" r="6"/>
+    <circle cx="960" cy="160" r="6"/>
+    <circle cx="1080" cy="40" r="6"/>
+    <circle cx="900" cy="960" r="6"/>
+    <circle cx="1040" cy="1080" r="6"/>
+  </g>
+
+  <!-- Faint large watermark bolt, centered-right -->
+  <path d="M1180 300 L1000 620 L1090 620 L1010 900 L1260 560 L1170 560 L1250 300 Z"
+        fill="#38BDF8" opacity="0.06"/>
+
+  <!-- Faint large watermark bolt, upper-left -->
+  <path d="M420 -50 L280 260 L350 260 L290 480 L500 200 L430 200 L490 -50 Z"
+        fill="#0EA5E9" opacity="0.06"/>
+</svg>
